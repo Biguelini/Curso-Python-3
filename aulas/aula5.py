@@ -9,3 +9,4 @@ Operadores aritméticos
 % resto, módulo
 () altera a ordem da conta
 """
+print("-" * 20)
