@@ -22,9 +22,10 @@ else:
 
 # 3
 nome = input('Qual seu primeiro nome? ')
-if(len(nome) == 4):
+tamanho = len(nome)
+if(tamanho == 4):
     print('Seu nome é curto')
-elif(len(nome) == 4 or len(nome) == 5):
+elif(tamanho == 4 or tamanho == 5):
     print('Seu nome é normal')
 else:
     print('Seu nome é longo')
