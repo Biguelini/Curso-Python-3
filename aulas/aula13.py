@@ -17,9 +17,15 @@ print(f'{num:j<10}')
 num_2 = 123456
 print(f'{num_2:0^10}')
 
-nome = 'João'
+nome = 'João PeDRo BiguELINI'
 print(f'{nome:#^50}')
 
 print(nome.lower())
 print(nome.upper())
 print(nome.title())
+# saídas
+"""
+    joão pedro biguelini
+    JOÃO PEDRO BIGUELINI
+    João Pedro Biguelini
+"""
